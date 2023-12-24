@@ -60,7 +60,14 @@ public class CharacterMovement : MonoBehaviour
         //--Play the "Special" animation --
         if (Input.GetButtonDown("Hat"))
         {
-            animator.SetTrigger("Hat");
+            if(playerSpeed < 1.5)
+            {
+                animator.SetTrigger("Hat");
+            }
+            else
+            {
+                animator.SetTrigger("movingHat");
+            }
         }
     }
 }
