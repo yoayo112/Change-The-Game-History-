@@ -54,7 +54,7 @@
     <UnityVersion>2022.3.12f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CowboyMovement.cs" />
+    <Compile Include="Assets\Scripts\Character Scripts\Cowboy\CowboyMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
