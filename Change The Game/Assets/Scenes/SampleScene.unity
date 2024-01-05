@@ -134,9 +134,9 @@ GameObject:
   - component: {fileID: 646536738}
   - component: {fileID: 646536740}
   - component: {fileID: 646536739}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -205,7 +205,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 0a896ce311e8b464699069a262be017d, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: d63ad7a4a7e97f34c92b4b25ff8d73a8, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
@@ -815,7 +815,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3437497829453039426, guid: 476d1746b40255940bdb004b05b2f0c8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.85
+      value: 61.3
       objectReference: {fileID: 0}
     - target: {fileID: 3437497829453039426, guid: 476d1746b40255940bdb004b05b2f0c8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -823,7 +823,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3437497829453039426, guid: 476d1746b40255940bdb004b05b2f0c8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.87
+      value: 7.2
       objectReference: {fileID: 0}
     - target: {fileID: 3437497829453039426, guid: 476d1746b40255940bdb004b05b2f0c8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -853,6 +853,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8946479370039065265, guid: 476d1746b40255940bdb004b05b2f0c8, type: 3}
+      propertyPath: m_Depth
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -864,7 +868,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 705507995}
   - {fileID: 881613303}
+  - {fileID: 6350694635496039280}
   - {fileID: 1386299002}
   - {fileID: 2107339587}
   - {fileID: 1050620600}
-  - {fileID: 6350694635496039280}
